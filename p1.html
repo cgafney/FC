@@ -15,65 +15,74 @@
 
   <body>
     <!-- navigation menu -->
-    <nav>
-      <a href="index.html"code style="text-decoration:none"><h3>Connor Gafney</h3></a>
-      <ul>
-        <li>Project #1 - <a href="p1.html">Lost in Translation</a></li>
-        <li>Project <a href="p2.html">#2</a></li>
-        <li>Project <a href="p3.html">#3</a></li>
-        <li>Project <a href="p4.html">#4</a></li>
-        <li>Project <a href="p5.html">#5</a></li>
-        <li>Project <a href="p6.html">#6</a></li>
-        <li>Project <a href="p7.html">#7</a></li>
-        <li>Project <a href="p8.html">#8</a></li>
-        <li>Project <a href="p9.html">#9</a></li>
-      </ul>
-    </nav>
+    <header class="container group">
+      <a href="index.html">
+        <h3 class="logo">Connor <br> Gafney</h3>
+      </a>
+      <nav class="nav primary-nav">
+        <a href="p6.html">Project #6</a>
+        <a href="p7.html">Project #7</a>
+        <a href="p8.html">Project #8</a>
+        <a href="p9.html">Project #9</a>
+      </nav>
+      <nav class="nav primary-nav margin-right">
+        <a href="p1.html">Project #1</a>
+        <a href="p2.html">Project #2</a>
+        <a href="p3.html">Project #3</a>
+        <a href="p4.html">Project #4</a>
+        <a href="p5.html">Project #5</a>
+      </nav>
+    </header>
 
     <!-- main content -->
-    <div class="content">
+    <section class="row-alt">
+      <div class="lead container">
       <!-- 1. give your project  a titile -->
 
-      <h1>
+      <h4>
         Lost in Translation
-      </h1>
+      </h4>
 
-      <!-- 2. embed your p5 sketch -->
-
-      <div class="fullwidth">
-        <!-- below width and height refers to the dimensions of your sketch-->
-
-        <iframe 
-          style="width: 300px; height: 340px; overflow: hidden;"
+      <div>
+        <!--p5js Has a 42px Top to the Canvas Size-->
+        <iframe class="margin-right"
+          style="width: 300px; height: 342px; overflow: hidden;"
           scrolling="no"
           frameborder="0" src="https://editor.p5js.org/cgafney/full/96EbvoMd3"></iframe>
       </div>
 
-      <!-- 3. write a short description to describe what the work is about -->
-      <h1>
+      <h1 class="padding-right">
         Description
       </h1>
 
-      <p>
+      <p class="padding-right">
         I made a smiley face. =]
       </p>
 
       <!-- 4. reflection -->
-      <h1>
+      <h1 class="padding-right">
         Design Process
       </h1>
 
-      <p>
+      <p class="padding-right">
         Making squares to make a smiley face. =]
       </p>
 
-      <h1>
+      <h1 class="padding-right">
         Reflection
       </h1>
 
-      <p>
+      <p class="padding-right">
         Make a new copy when you want to start something new otherwise you would have to restart and make it all over again. Thankfully this wasn't the most complicated design ever.
       </p>
     </div>
+  </section>
+
+  <footer class="primary-footer container group">
+
+    <small>&copy; Connor Gafney</small>
+
+  </footer>
+
   </body>
 </html>
