@@ -36,9 +36,36 @@
 
     <!-- main content -->
     <div>
-      <p>
-        Coming soon
-      </p>
+      <h4 class="center">
+        Face Generator
+      </h4>
+
+      <div class="flex">
+        <iframe class="flexed-iframe sticky"
+          style="width:400px; height:442px;"
+          src="https://editor.p5js.org/cgafney/full/LXLi750oB">  
+        </iframe>
+        <div class="flexed">
+
+          <h1>
+            Design Process
+          </h1>
+          <p>
+            I first started with some sketches (pictured below) and tried to replicate one of them as the first "stage" of the face generation. I then tried to figure out how to make the points move in relationship with the mouse to the second image. Doing so made all the other "in-between stages" possible as it was all based off of where the mouse is in relationship to the canvas. Finally I found eye and mouth positions that looked nice and made it move to the correct posions depending on what "stage" the face was in and then colored it using the same technique.
+          </p>
+          <div class="flex">
+            <img class="flexed" src="images/stage1.png" alt="Stage 1" style="width:40%;float:left">
+            <img class="flexed" src="images/stage2.png" alt="Stage 2" style="width:40%;float:right">
+          </div>
+          <!--Insert Both Images Here -->
+          <h1>
+            Discoveries
+          </h1>
+          <p>
+            I learned that it is much harder to make eyes move on a triangle where you want it when compared to a square as on a square you can make the eyes a lot more dynamic. I also decided not to touch all corners of the triangle as each side of a triangle requires specific coordinates that I really didn't want to mess with and be stuck somewhere. Finally I had to find a way to make a random trigger happen every 5 seconds to change the intensity that the blue is being used in the sketch.
+          </p>
+        </div>
+      </div>
     </div>
 
     <footer class="primary-footer row">

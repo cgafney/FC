@@ -56,6 +56,8 @@ p {
   font-size: 12pt;
   color: ghostwhite;
   line-height: 16pt;
+  font-size:12pt;
+  letter-spacing:0.1px;
 }
 
 .center {
@@ -157,11 +159,24 @@ Flex
 
 .flexed-iframe{
   flex:width;
+  margin-top:1rem;
 }
 
 .flexed{
   flex:1;
   padding:1rem;
+}
+
+/*
+=================================================
+Sticky
+=================================================
+*/
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top:5rem;
 }
 
 /*
