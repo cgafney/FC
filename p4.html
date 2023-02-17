@@ -33,12 +33,40 @@
         <a href="p5.html">Project #5</a>
       </nav>
     </header>
-
     <!-- main content -->
     <div>
-      <p>
-        Coming soon
-      </p>
+      <h4 class="center">
+        Magic Clock
+      </h4>
+
+      <div class="flex">
+        <iframe class="flexed-iframe sticky"
+          style="width:400px; height:442px;"
+          src="https://editor.p5js.org/cgafney/full/BLK6SrcIG"> 
+        </iframe>
+        <div class="flexed">
+
+          <h1>
+            Description
+          </h1>
+          <p>
+            This is a "Clock" that tries to mimick the style of a battery of some device. The battery will slowly go down as you are on the page, but you can also click on the drawing and interact with it, the battery will drain faster.
+          </p>
+          <h1>
+            Design Process
+          </h1>
+          <p>
+            I started with the basic square in the middle and eventually found out that there is a rectangle mode that needs one to define the opposite corners to make the rectangle. Using this I was easily able to "drain" the battery life by using variables and once it reaches a certain point it would turn red. I also utilized the map function in order to show what percentage the battery is actually at.
+          </p>
+            <img src="images/clock.png" alt="Clock Ideas" style="width:100%">
+          <h1>
+            Reflection
+          </h1>
+          <p>
+            I found that working with milliseconds, seconds, minutes, and hours was counterintuivitve on what I was trying to do. Instead I found that using a variable and increasing it each time the draw function was running. This made it so I didn't have to worry about the slight inconcstency that the seconds, minutes, and hours have and seemed much easier than trying to map milliseconds. 
+          </p>
+        </div>
+      </div>
     </div>
 
     <footer class="primary-footer row">
