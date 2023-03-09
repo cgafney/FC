@@ -36,9 +36,36 @@
 
     <!-- main content -->
     <div>
-      <p>
-        Coming soon
-      </p>
+      <h4 class="center">
+        Data Portrait
+      </h4>
+
+      <div class="flex">
+        <iframe class="flexed-iframe sticky"
+          style="width:600px; height:642px;"
+          src="https://editor.p5js.org/cgafney/full/yHUi6m4sM"> 
+        </iframe>
+        <div class="flexed">
+          <h1>
+            Description
+          </h1>
+          <p>
+            This is meant to be a data portrait like the ones from the Dear Data project that Giorgia Lupi and Stefanie Posavec did. This is not that however, reasons why is down in reflection. What this is, however, is the data written out and can be "encoded" using a "password" that the user inputs into the sketch. This then "encodes" the entire data into a string of letters that can truly only be decoded by using the same password in reverse, not possible in this sketch. The data that I recoreded was the times in which I drank something, anything, be it water or soda.
+          </p>
+          <h1>
+            Design Process
+          </h1>
+          <p>
+            The way that this is designed is by using arrays, functions, and a bunch of if statements. I started by using a way to break down whatever someone wrote into each of the individual letters that made up the word, sentence, or otherwise gibberish. By then checking each and every letter that is then typed using an if statement, one can give it a value that was predetermined. Using this value and the original message that was also broken down into its individual letters one can run it through checking each and every letter and then doing a math problem based off of the earlier predetermined value that was taken from the input that the user gave. After one letter is encrypted it will then move onto the next letter of the message and of the password until the end of the password where it will then reset the password to the beginning while continuing on with the overall encoding of the original message. Each time this is done the code will output a certain number which then is put into an array that contains every single letter and push that into a seperate array. This array is then joined after everything is done being encrypted and outputed as text.
+          </p>
+          <h1>
+            Reflection
+          </h1>
+          <p>
+            Arrays are very interesting and are very helpful for parsing large amounts of data that one does not necessarily know how long the length of it will be. The way that you can break down sentences and words down to the individual letters that make up the sentences and words is really nice and the only real reason why this code even works. The problem is that I have no idea how to utilize the array function in anything other than parsing data. I cannot really think of a way that hard-coded data in an array can then be somehow converted into a drawing without jumping through a lot of hoops just to get a product even though it may just be simpler to make shapes with the code then go through the whole process of arrays. While arrays are very useful for this specific project that I worked on, I cannot really see it being used to create some sort of drawing in the future other than just to parse some sort of information that I get from a user.
+          </p>
+        </div>
+      </div>
     </div>
 
     <footer class="primary-footer row">
