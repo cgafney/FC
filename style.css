@@ -24,7 +24,7 @@ Typography
 =================================================
 */
 
-h1, h3, h4{
+h1, h3, h2, h4{
   color: #55CEFF;
   margin-bottom: 0.5rem;
 }
@@ -34,11 +34,11 @@ h1{
 }
 
 h2 {
-  color:ghostwhite;
-  font-size:12pt;
-  line-height: 16pt;
-  letter-spacing:0.1px;
-/* Currently Not in Use (Actually on Home Page)*/
+  font-size:48pt;
+  font-weight: bold;
+  padding-bottom: 25px;
+  margin-top:2rem;
+/* Currently Not in Use (Actually on P9)*/
 }
 
 h3 {
